@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Formation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Word Formation</h1>
+    </header>
+
+    <main>
+        <section id="exercise-section">
+            <p id="sentence"></p>
+            <div id="options">
+                <button class="option" data-type="verb">Verb</button>
+                <button class="option" data-type="noun">Noun</button>
+                <button class="option" data-type="adjective">Adjective</button>
+                <button class="option" data-type="adverb">Adverb</button>
+            </div>
+            <p id="feedback"></p>
+            <div id="remaining-categories" style="display: none;">
+                <h3>Remaining Categories</h3>
+                <ul id="remaining-list"></ul>
+                <button id="check-results-btn">CHECK RESULTS</button>
+                <button id="solve-btn">SOLVE</button>
+            </div>
+            <button id="new-word-btn">NEW WORD</button>
+            <button id="reset-btn">RESET</button>
+        </section>
+
+        <section id="history-section">
+            <h2 onclick="toggleHistory()">History ▼</h2>
+            <ul id="history-list" style="display: none;"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

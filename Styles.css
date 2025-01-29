@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#exercise-section {
+    margin-bottom: 20px;
+}
+
+#sentence {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #7c4dff;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#remaining-categories {
+    margin-bottom: 20px;
+}
+
+#remaining-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#remaining-list li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f3e5f5;
+    border-radius: 5px;
+}
+
+#remaining-list input {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#new-word-btn, #reset-btn, #check-results-btn, #solve-btn {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#new-word-btn:hover, #reset-btn:hover, #check-results-btn:hover, #solve-btn:hover {
+    background-color: #7c4dff;
+}
+
+#history-section {
+    margin-top: 40px;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    background-color: #f3e5f5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
